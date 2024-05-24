@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+  
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+#contenido{
+   position: relative;
+}
+#calc{
+    background-color: rgb(197, 185, 168);
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    display: block;  
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin: auto 0;
+      
+}
+#calc td button{
+    background-color: rgb(255, 238, 0);
+    width: 60px;
+    height: 70px;
+    font-size: 25px;
+    display: block;
+    border-radius: 15px;
+   
+}
+#calc td button:hover{
+    background-color: rgb(170, 175, 180);
+}
+
+#result{
+    background-color: white;
+    display: block;
+    width: 250px;
+    height: 115px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: right;
+    line-height: 100px;
+    overflow-y: scroll;
+    font-size: 60px;
+}
+
